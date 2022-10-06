@@ -21,6 +21,4 @@ python manage.py shell 运行shell
 python manage.py createsuperuser 创建管理员
 
 admin.py:
-from .models import Question
-admin.site.register(Question)
-（为管理员界面添加Question模组）
+- admin.site.register(Question) 为管理员界面添加Question模组
